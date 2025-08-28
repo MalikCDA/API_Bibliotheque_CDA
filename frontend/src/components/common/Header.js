@@ -35,6 +35,13 @@ const Header = () => {
           >
             Auteurs
           </Link>
+
+          <Link
+            to="/publishers"
+            className={`nav-link ${location.pathname === '/publishers' ? 'active' : ''}`}
+          >
+            Éditeurs
+          </Link>
         </nav>
       </div>
     </header>

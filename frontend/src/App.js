@@ -5,6 +5,7 @@ import Footer from './components/common/Footer';
 import HomePage from './pages/HomePage';
 import BooksPage from './pages/BooksPage';
 import AuthorsPage from './pages/AuthorsPage';
+import PublishersPage from './pages/PublishersPage';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/books" element={<BooksPage />} />
             <Route path="/authors" element={<AuthorsPage />} />
+            <Route path="/publishers" element={<PublishersPage />} />
           </Routes>
         </main>
         <Footer />
